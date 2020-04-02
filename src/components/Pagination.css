@@ -1,0 +1,31 @@
+li {
+  list-style-type: none;
+}
+
+button {
+  color: inherit;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination__item {
+  margin-right: 0.5rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 0.3rem 0.7rem;
+  color: black;
+}
+
+.pagination__item.current {
+  background: black;
+  color: white;
+}
